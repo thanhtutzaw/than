@@ -18,7 +18,7 @@ const icon = document.querySelector('ul');
 
 window.onscroll = function(){
 	var top = window.scrollY;
-	console.log(top);
+	
 
 	if (top >= 100 ) {
 		icon.classList.remove('hide')
